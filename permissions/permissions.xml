@@ -778,7 +778,23 @@
             <Metadata></Metadata>
         </DesignTimePermissions>
         <RunTimePermissions></RunTimePermissions>
-        <Entities></Entities>
+        <Entities>
+            <Entity
+             name="NewProjectThingworx"
+             type="Project">
+                <VisibilityPermissions>
+                    <Visibility></Visibility>
+                </VisibilityPermissions>
+                <DesignTimePermissions>
+                    <Create></Create>
+                    <Read></Read>
+                    <Update></Update>
+                    <Delete></Delete>
+                    <Metadata></Metadata>
+                </DesignTimePermissions>
+                <RunTimePermissions></RunTimePermissions>
+            </Entity>
+        </Entities>
     </Projects>
     <Networks>
         <VisibilityPermissions>
@@ -1118,7 +1134,38 @@
             <Metadata></Metadata>
         </DesignTimePermissions>
         <RunTimePermissions></RunTimePermissions>
-        <Entities></Entities>
+        <Entities>
+            <Entity
+             name="NewThing"
+             type="Thing">
+                <VisibilityPermissions>
+                    <Visibility></Visibility>
+                </VisibilityPermissions>
+                <DesignTimePermissions>
+                    <Create></Create>
+                    <Read></Read>
+                    <Update></Update>
+                    <Delete></Delete>
+                    <Metadata></Metadata>
+                </DesignTimePermissions>
+                <RunTimePermissions></RunTimePermissions>
+            </Entity>
+            <Entity
+             name="TestDevopsThing"
+             type="Thing">
+                <VisibilityPermissions>
+                    <Visibility></Visibility>
+                </VisibilityPermissions>
+                <DesignTimePermissions>
+                    <Create></Create>
+                    <Read></Read>
+                    <Update></Update>
+                    <Delete></Delete>
+                    <Metadata></Metadata>
+                </DesignTimePermissions>
+                <RunTimePermissions></RunTimePermissions>
+            </Entity>
+        </Entities>
     </Things>
     <NotificationContents>
         <VisibilityPermissions>
